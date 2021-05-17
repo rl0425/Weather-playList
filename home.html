@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather-Music</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
+    <!-- favicon.ico 404 (Not Found) -->
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap" rel="stylesheet">
+   
+</head>
+
+<body>
+    <img id= "snowback" src="image/arctic-snow-winter-storm-blizzard-snow-3b5a42d67f7941792c06cbb4073a4138.png" alt="My Image">
+    <!--<img id= "snowBackground" src="image/mountain-4291627.png" alt="My Image">-->
+    <img id= "moon" src="image/full-moon-308007.png" alt="My Image">
+    <!--<img id= "trees" src="image/4esit4j9rv96f2ea54nqgngr4c.png" alt="My Image">-->
+    <div class="background">
+        <div id="backgroundBox">
+            <div class="js-weather" style="font-size:30px;">
+            </div>
+            <p><img id="colors" src="image/watercolour-4117017.png" alt="My image"></p>
+            <div id="Post">오늘의 날씨는 <div id="js-weather"></div><i id="icon" class="fas fa-bolt"></i></div>
+            <div>현재 위치한 장소는 <div class="city"></div> 입니다.</div>
+            <div id="ondobox">현재온도 : <div class="temp"></div> 체감온도 : <div class="feel_like"></div></div>
+            <div id="playListbox"> PlayList ></div>
+            
+            <div id=playerSet>
+                <input type="button" class="img-buttonl" id="leftArrow" src="/image/free-icon-left-arrow-in-circular-button-black-symbol-54476.png">
+                
+                <div id=playerSet1><div id="players"></div></div>
+                <div id=playerSet2><div id="players2"></div></div>
+                <div id=playerSet3><div id="players3"></div></div>
+                <div id=playerSet4><div id="players4"></div></div>
+                <input type="button" class="img-buttonr" id="rightArrow" src="/image/free-icon-right-arrow-button-1413.png">
+
+            </div>
+        </div>
+    </div>
+    <script src="background.js"></script>
+    <script type="module" src="weather.js"></script>
+    <script type="module" src="youtubelink.js"></script>
+
+    <!--<a href="javascript:window.location.reload(true);">페이지 다시 읽기</a>
+    <input type="button" value="click" onclick="location.reload()"/>-->
+</body>
+</html>

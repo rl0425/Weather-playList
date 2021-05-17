@@ -1,0 +1,166 @@
+body{
+    z-index:6;
+    background-color:black;
+}
+
+#snowBackground{
+    position: absolute;
+    width: 20%;
+    top:130%;
+    left:78%;
+}
+
+#colors{
+    position: relative;
+    top:12px;
+    width: 10%;
+   
+    
+}
+#snowback{
+    position: absolute;
+    
+    width: 100%;
+    top:80%;
+    height: 90%;
+    
+}
+#Post{
+    position: relative;
+    margin-top: 10%;
+    top:10%;
+}
+
+#moon{
+    position: absolute;
+    width: 12%;
+    left:3%;
+}
+
+#trees{
+    position: absolute;
+    top:84%;
+    width: 40%; 
+}
+
+.background{
+    
+    border-radius: 400px 400px 400px 400px / 300px 300px 300px 300px;
+    position: relative;
+    width: 40%;
+    color: white;
+    text-align: center;
+    background-color:rgba(95, 165, 235, 0.534);
+    justify-content:center;
+    align-items: center;
+    margin-top:2em;
+    margin-left:30%;
+    margin-right:20%;
+}
+
+.background:after{
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+}
+
+#backgroundBox{
+    font-family: 'Do Hyeon', sans-serif;
+    font-size:40px;
+    display: inline;
+  margin-top: 10%;
+  width: 100%;
+  height: 100%;
+}
+#icon{
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    margin: 5px auto; /*div 사이 거리 벌려주기*/
+    padding:10px;
+    font-size:3em;
+    padding-bottom: .5em;
+}
+
+#playListbox{
+   
+    display: block;
+    margin-top:40px;
+    margin-bottom: 25px;
+}
+
+#ondobox{
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    margin: 5px auto; /*div 사이 거리 벌려주기*/
+    padding:10px;
+    font-size: 0.7em;
+}
+
+.city, .temp , .feel_like{
+    font-size: 45px;
+    color: rgba(0, 255, 85, 0.459);
+    display: flexbox;
+}
+
+.background div{
+    display: inline;
+    margin: 0 auto;
+    margin: 5px auto; /*div 사이 거리 벌려주기*/
+    
+}
+
+/*//////////////////////////////////////////////////////////////*/
+
+#playerSet{
+    box-sizing: content-box;
+    justify-content:center;
+    width: 100%;
+    
+    height: 50%;
+    display:flex;
+    position: absolute;
+    flex-wrap:nowrap;
+    z-index:1;
+}
+iframe {
+    width: 30vw;
+    height: calc(30vw/1.77);
+}
+
+#playerSet2, #playerSet3, #playerSet4{
+    display: none;
+    left:80px;
+}
+
+#leftArrow #rightArrow{
+    font-size:2em;   
+}
+
+input.img-buttonl {
+    display: none;
+    margin-top: 20%;
+    background: url( "./image/free-icon-left-arrow-in-circular-button-black-symbol-54476.png" ) no-repeat;
+    width: 6em;
+    margin-right: 2em;
+    height: 5em;
+    background-size:3em;
+    cursor: pointer;
+    background-position: left 50%;
+    border:0;
+    outline: 0;
+  }
+
+  input.img-buttonr {
+    background: url( "./image/free-icon-right-arrow-button-1413.png" ) no-repeat;
+    margin-top: 20%;
+    width: 6em;
+    margin-left: 2em;
+    height: 5em;
+    background-size:3em;
+    cursor: pointer;
+    background-position: right 50%;
+    border:0;
+    outline: 0;
+  }
