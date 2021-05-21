@@ -12,7 +12,7 @@ Clone Repository...
 mkdir project
 cd Project
 git clone https://github.com/rl0425/Weather-playList.git
-cd ToDo-list
+cd Weather-playList
 ```
 ## Start
 Just type this one.
